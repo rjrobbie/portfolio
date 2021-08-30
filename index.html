@@ -1,134 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="shortcut icon" href="https://www.pngarts.com/files/10/Emoji-PNG-Image-Transparent.png" type="image/x-icon">
-    <title>rjrobbie.</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet"> 
+  <title>rjrobbie.</title>
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="#"><h1 class="logo__rj">rj<span class="logo__robbie">robbie.</span></h1></a>
-            </div>
-            <button class="btnHamburger" aria-label="toggle navigation lockscroll">
-                <span class="hamburger"></span>
-              </button>
-              <nav class="nav lockscreen">
-                <ul class="nav__list">
-                  <li class="nav__item"><a class="nav__link" href="#about">about me</a></li>
-                  <li class="nav__item"><a class="nav__link" href="#portfolio">portfolio</a></li>
-                  <li class="nav__item"><a class="nav__link" href="#blog">blog</a></li>
+    <div class="header__container">
+        <header class="header">
+
+            <h1 class="header__text">rj<strong>robbie.</strong></h1>
+        
+            <button class="nav-toggle" aria-label="toggle navigation lockscroll">
+              <span class="hamburger"></span>
+            </button>
+        
+            <nav class="nav lockscreen">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#home">home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">about me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">what I do</a></li>
+                <li class="nav__item"><a class="nav__link" href="#portfolio">portfolio</a></li>
+                <li class="nav__item"><a class="nav__link" href="#blog">blog</a></li>
+              </ul>
+            </nav>
+            <div class="desktop__nav">
+                <ul class="desktop__nav-list">
+                    <li class="desktop__nav-item"><a class="desktop__nav-link" href="">about me</a></li>
+                    <li class="desktop__nav-item"><a class="desktop__nav-link" href="">projects</a></li>
+                    <li class="desktop__nav-item"><a class="desktop__nav-link" href="">blog</a></li>
                 </ul>
-              </nav>
-              <div class="intro__socials">
-                  <a href="https://github.com/rjrobbie" target="blank"><i class="fab fa-github-square"></i></a>
-                  <a href="https://dev.to/rjrobbie" target="blank"><i class="fab fa-dev"></i></a>
-                  <a href="https://twitter.com/robjrobbie" target="blank"><i class="fab fa-twitter-square"></i></a>
-                  <a href="https://www.linkedin.com/in/rjrobbie/"><i class="fab fa-linkedin"></i></a>
-              </div>
-        </div>
-    </header>
-
-
-
-    <section class="hero">
-        <div class="container">
-            <div class="hero__text">
-                <h1>Hey, I'm <span class="rob">Rob</span></h1>
-                <p>a self taught front end web developer based in Cambridge, UK</p>
-                <div>
-                    <a href="#about"><i class="fas fa-long-arrow-alt-down"></i></a>
-                </div>
+                <button class="desktop__nav-btn">
+                    contact
+                </button>
             </div>
-        </div>
-    </section>
+          </header>
+    </div>
 
-    <section class="about" id="about">
-        <div class="about__container">
-            <div>
-                <img class="about__img" src="https://media-exp1.licdn.com/dms/image/C4D03AQF1h921YimUFw/profile-displayphoto-shrink_800_800/0/1619357320952?e=1627516800&v=beta&t=tOg4vScXAElzXlqszndV8gPQZ8mInP_ugdYnTsom4Rc" alt="This is a picture of rjrobbie">
-            </div>
-            <div class="about__text">
-                <h1>about me.</h1>
-                <p>Hey, thanks for visiting my page <i class="far fa-smile"></i> Do you like what I’ve done with the place? I’m learning to code because I enjoy the creativity that goes into the biggest medium there is, oh and overcoming challenges too. When I’m not tapping away at a keyboard, you can find me at the beach, maybe paddleboarding, or out cycling… a lot! </p>
-                <a href="#portfolio"><button href="#portfolio" class="btn btn__about">My Work</button></a>
-            </div>
-        </div>
-    </section>
 
-    <section class="portfolio" id="portfolio">
-        <div class="block">
-            <div>
-                <img class="img coke" src="https://www.coca-cola.co.uk/content/dam/one/gb/en/christmas2020/december-1st/02_desktop_header_xmas_v3.0.gif" alt="">
-            </div>
-            <div class="portfolio__text">
-                <h1>Coca-Cola</h1>
-                <p>To demonstrate my knowledge and understanding of HTML and CSS, I built this responsive Coca-Cola website clone using flexbox. I also really like Coke Zero and Christmas.</p>
-                <button class="btn"><a class="btn_a" href="https://xenodochial-mclean-278215.netlify.app/" target="_blank">Live Site</a></button>
-                <button class="btn"><a class="btn_a" href="https://github.com/rjrobbie/coca-cola" target="_blank">GitHub</a></button>
-            </div>
-        </div>
-    </section>
+  <section class="intro">
+    <div class="intro__text">
+        <h1>Hey, I'm <span class="rob">Rob</span></h1>
+        <p>a self taught front end web developer based in Cambridge, UK</p>
+        <a href=""></a>
+    </div>
+    <div class="intro__socials">
+        <i class="fab fa-github-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-dev"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
 
-  
-
-    <section class="blogs" id="blog">
-       <div class="blog__container">
-        <div class="blog__content">
-            <div class="blog">
-                <i class="fab fa-dev blog-icon"></i>
-                <h1>Code Blog</h1>
+<section class="section-two">
+    <div class="container">
+        <h2 class="section-title section-title--dark">about me.</h2>
+        <div class="row">
+            <div class="col">
                 <p>
-                    Have you heard the one about software engineers debugging their code, 
-                    by explaining it line by line to a rubber duck? 
-                    I figured that explaining my code as simply as possible would deepen my understanding of what I’m learning, 
-                    and maybe help others. 
+                    I like to build cool things on the internet, enriched with HTML, CSS and fortifed with JavaScript. 
                 </p>
-                <p class="coming">coming summer 2021</p>
-           </div>
-           <div class="podcast">
-                <i class="fas fa-podcast blog-icon"></i>
-                <h1>Code Pod</h1>
+            </div>
+            <div class="col">
                 <p>
-                    The Code Words Podcast is coming soon, bringing together developers from all across the world. 
-                    Learning to code is difficult, not impossible. But with a supportive global community, 
-                    we can all become better programmers. 
+                    I also like to get on my cycle, paddlboard and try my hand at vegan recipes
                 </p>
-                <p class="coming">coming winter 2021</p>
-           </div>  
+            </div>
         </div>
-          
-       </div>
-    </section>
+    </div>
+</section>
 
-    <section class="contact">
-        <i class="fas fa-paper-plane"></i>
-       <h1>say hi.</h1>
-        <form class="form" action="https://formsubmit.co/rob@rjrobbie.dev" method="POST">
-                <input class="input" type="text" name="Name" required placeholder="Name">
-                <input class="input" type="email" name="Email" required placeholder="Email">  
-                <textarea class="textarea" type="text" name="Message" cols="40" rows="10" type="text" required placeholder="Type your message here..."></textarea>
-                <div class="formbtn">
-                    <button class="btn" type="submit">Send</button>
-                </div>
-       </form>
-    </section>
+<section class="section-three">
+    <div class="container row">
+        <div class="col">
+            <h2 class="section-title">what I do.</h2>
+            <p>
+                I've been self learning to code. I know HTML, CSS, GitHub, VS Code and know my way around the Terminal.
+                Working on my JavaScript, but I know a bit of React, SQL and Python too.
+            </p>
+        </div>
+        <div class="col care">
+            <img src="" alt="a sunset over a mountain range">
+        </div>
+    </div>
+</section>
 
-  
- 
+<section class="section-four">
+    <div class="container row care">
+        <div class="col">
+            <img src="img/image-02.jpg" alt="a sunset over a mountain range with tree branches in the foreground">
+        </div>
+        <div class="col">
+            <h2 class="section-title">portfolio.</h2>
+            <h3>paddlboard shop</h3>
+            <p>Check out this awesome e commerce shop I made for paddleboarding</p>
+            <h3>cycle route planner</h3>
+            <p>check out this cycle route planner to help you get back in the saddle</p>
+        </div>
+    </div>
+</section>
 
-    <footer class="footer">
-        <div class="footer__container">
-            <p>this website was built by rjrobbie.</p>
-            <p><i class="far fa-copyright"></i> 2021</p>
-        </div>        
-    </footer>
-    
-    <script src="script.js"></script>
+<section class="section-three">
+    <div class="container row">
+        <div class="col">
+            <h2 class="section-title">blog.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <div class="col care">
+            <img src="img/image-01.jpg" alt="a sunset over a mountain range">
+        </div>
+    </div>
+</section>
+
+<section class="section-four">
+    <div class="container row care">
+        <div class="col">
+            <img src="img/image-02.jpg" alt="a sunset over a mountain range with tree branches in the foreground">
+        </div>
+        <div class="col">
+            <h2 class="section-title">say hi.</h2>
+            <p>Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.</p>
+        </div>
+    </div>
+</section>
+
+<footer class=" footer container">
+        <h3 class="footer__text">rj<strong>robbie.</strong></h3>
+</footer>
+
+
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
