@@ -214,6 +214,7 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  padding: 1rem;
   background-color: black;
   color: white;
   width: 100%;
@@ -221,10 +222,8 @@ html {
 
 .main-content {
   display: grid;
-  padding: 1rem;
   place-items: center;
   text-align: center;
-  height: auto;
   width: 100%;
 }
 
@@ -242,7 +241,7 @@ html {
 }
 
 .strapline {
- font-size: 1.25rem;
+ font-size: 1rem;
 }
 
 .fa-rocket {
