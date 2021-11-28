@@ -215,6 +215,7 @@ html {
   margin-top: 3rem;
   background-color: black;
   color: white;
+  width: 100%;
 }
 
 .main-content {
@@ -373,8 +374,8 @@ html {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding: 4rem 0rem;
   width: 100%;
-  padding: 4rem;
 }
 
 .contact h3 {
@@ -386,9 +387,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
-  margin: 1rem;
-  padding: 1rem;
+  width: 60%;
 }
 
 .input {
@@ -461,6 +460,11 @@ html {
     height: 65vh;
   }
   
+
+  .form {
+ 
+    width: 40%;
+  }
  
 
  
