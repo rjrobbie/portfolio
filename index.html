@@ -3,132 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="black">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="shortcut icon" href="https://www.pngarts.com/files/10/Emoji-PNG-Image-Transparent.png" type="image/x-icon">
-    <title>rjrobbie.</title>
+    <link rel="shortcut icon" href="/images/smile-solid.svg">
+    <script src="https://kit.fontawesome.com/865b8100f2.js" crossorigin="anonymous"></script>
+    <title>rjrobbie | portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="#"><h1 class="logo__rj">rj<span class="logo__robbie">robbie.</span></h1></a>
+
+  <div>
+    <div class="overlay" id="overlay">
+      <div class="overlay-content">
+        <a href="#main"><h1 class="overlay-content-link nav-link">Home</h1></a>
+        <a href="#projects"><h1 class="overlay-content-link nav-link">Projects</h1></a>
+        <a href="#blog"><h1 class="overlay-content-link nav-link">Podcast</h1></a>
+        <a href="#contact"><h1 class="overlay-content-link nav-link">Contact</h1></a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="container-content">
+          <div>
+            <h1 class="header-title reset"><a href="#">rjrobbie</a></h1>
+          </div>
+          <div>
+            <div class="desktop_nav_menu">
+              <div class="desktop_nav_menu_list_item"><a class="desktop_nav_menu_list_item_link" href="#main">Home</a></div>
+              <div class="desktop_nav_menu_list_item"><a class="desktop_nav_menu_list_item_link" href="#projects">Projects</a></div>
+              <div class="desktop_nav_menu_list_item"><a class="desktop_nav_menu_list_item_link" href="#blog">Podcast</a></div>
+              <div class="desktop_nav_menu_list_item"><a class="desktop_nav_menu_list_item_link" href="#contact">Contact</a></div>
             </div>
-            <button class="btnHamburger" aria-label="toggle navigation lockscroll">
-                <span class="hamburger"></span>
-              </button>
-              <nav class="nav lockscreen">
-                <ul class="nav__list">
-                  <li class="nav__item"><a class="nav__link" href="#about">about me</a></li>
-                  <li class="nav__item"><a class="nav__link" href="#portfolio">portfolio</a></li>
-                  <li class="nav__item"><a class="nav__link" href="#blog">blog</a></li>
-                </ul>
-              </nav>
-              <div class="intro__socials">
-                  <a href="https://github.com/rjrobbie" target="blank"><i class="fab fa-github-square"></i></a>
-                  <a href="https://dev.to/rjrobbie" target="blank"><i class="fab fa-dev"></i></a>
-                  <a href="https://twitter.com/robjrobbie" target="blank"><i class="fab fa-twitter-square"></i></a>
-                  <a href="https://www.linkedin.com/in/rjrobbie/" target="blank"><i class="fab fa-linkedin"></i></a>
-              </div>
+          </div>
+        
+          <div class="header-nav">
+            <div class="hamburgerBtn" id="hamburgerBtn">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+          </div>
+   
         </div>
+      </div>
+      
+      
+    
+     
+
+       
     </header>
 
-
-
-    <section class="hero">
-        <div class="container">
-            <div class="hero__text">
-                <h1>Hey, I'm <span class="rob">Rob</span></h1>
-                <p>a self taught front end web developer based in Cambridge, UK</p>
-                <div>
-                    <a href="#about"><i class="fas fa-chevron-circle-down"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about__container">
+    <main class="main scroll-margin-top" id="main">
+      <div class="container">
+        <div class="container-content">
+          <div class="main-content">
             <div>
-                <img class="about__img" src="https://pbs.twimg.com/profile_images/1423691652808548354/H3-Gn4FS_400x400.jpg" alt="This is a picture of rjrobbie">
+              <h1 class="main-content-title">Hello World</h1>
             </div>
-            <div class="about__text">
-                <h1>about me.</h1>
-                <p>Hey, thanks for visiting my page <i class="far fa-smile"></i> I'm a self taught developer that enjoys the fusion of creativity and problem solving that goes into building websites. When I’m away from my desk, you can find me hiking, cycling, paddleboarding and drinking tea.</p>
-                <a href="#portfolio"><button href="#portfolio" class="btn btn__about">My Work</button></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="block">
             <div>
-                <img class="img coke" src="https://www.coca-cola.co.uk/content/dam/one/gb/en/christmas2020/december-1st/02_desktop_header_xmas_v3.0.gif" alt="">
+                  <p class="strapline">Hey I'm Rob, I like to build things on the web.</p>
             </div>
-            <div class="portfolio__text">
-                <h1>Coca-Cola</h1>
-                <p>To demonstrate my knowledge and understanding of HTML and CSS, I built this responsive Coca-Cola website clone using flexbox. I also really like Coke Zero and Christmas.</p>
-                <a class="btn btn_a" href="https://xenodochial-mclean-278215.netlify.app/" target="_blank">Live Site</a>
-                <a class="btn btn_a" href="https://github.com/rjrobbie/coca-cola" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </section>
-
-  
-
-    <section class="blogs" id="blog">
-       <div class="blog__container">
-        <div class="blog__content">
-            <div class="blog">
-                <i class="fab fa-dev blog-icon"></i>
-                <h1>Code Blog</h1>
-                <p>
-                    Have you heard the one about software engineers debugging their code, 
-                    by explaining it line by line to a rubber duck? 
-                    I figured that explaining my code as simply as possible would deepen my understanding of what I’m learning, 
-                    and maybe help others. 
-                </p>
-                <p class="coming">coming winter 2021</p>
-           </div>
-           <div class="podcast">
-                <i class="fas fa-podcast blog-icon"></i>
-                <h1>Code Pod</h1>
-                <p>
-                    The Code Words Podcast is coming soon, bringing together developers from all across the world. 
-                    Learning to code is difficult, not impossible. But with a supportive global community, 
-                    we can all become better programmers. 
-                </p>
-                <p class="coming">coming winter 2021</p>
-           </div>  
-        </div>
           
-       </div>
-    </section>
+        
+            <div>
+              <a href="https://github.com/rjrobbie" target="blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://dev.to/rjrobbie" target="blank"><i class="fab fa-dev"></i></a>
+              <a href="https://twitter.com/robjrobbie" target="blank"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.linkedin.com/in/rjrobbie/" target="blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://codepen.io/rjrobbie/" target="blank"><i class="fab fa-codepen"></i></a> 
+              <a href="https://anchor.fm/robjrobbie" target="blank"><i class="fas fa-podcast"></i></a>
+            </div>
+          </div>
+        </div>
 
-    <section class="contact">
-        <i class="fas fa-paper-plane"></i>
-       <h1>say hi.</h1>
-        <form class="form" action="https://formsubmit.co/rob@rjrobbie.dev" method="POST">
-                <input class="input" type="text" name="Name" required placeholder="Name">
-                <input class="input" type="email" name="Email" required placeholder="Email">  
-                <textarea class="textarea" type="text" name="Message" cols="40" rows="10" type="text" required placeholder="Type your message here..."></textarea>
-                <div class="formbtn">
-                    <button class="btn" type="submit">Send</button>
+      </div>
+   
+    </main>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L720,256L1440,160L1440,0L720,0L0,0Z"></path></svg>
+
+    
+    <section class="projects scroll-margin-top" id="projects">
+    
+      <div class="container">
+     
+        <div class="container-content project-container">
+          <h1 class="container-title">mischief managed</h1>
+          <p class="container-strapline">...well, it be when I fill up these placeholders</p>
+          <div class="project_container">
+            <div class="project_item">
+              <div class="project">
+                <div class="project_image">
+                  <img class="project_image" src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="black and white picture">
                 </div>
-       </form>
+                <div class="project_content">
+                  <h2 class="project_title">Project Title</h2>
+                  <div class="project_text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptate.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptate.</p>
+                  </div>
+                  <div class="project_buttons">
+                    <button class="project_button">Live Site</button>
+                    <button class="project_button">GitHub</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="project_item">
+              <div class="project">
+                <div class="project_image">
+                  <img class="project_image" src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="black and white picture">
+                </div>
+                <div class="project_content">
+                  <h2 class="project_title">Project Title</h2>
+                  <div class="project_text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptate.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptate.</p>
+                  </div>
+                  <div class="project_buttons">
+                    <button class="project_button">Live Site</button>
+                    <button class="project_button">GitHub</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="project_item">
+              <div class="project">
+                <div class="project_image">
+                  <img class="project_image" src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="black and white picture">
+                </div>
+                <div class="project_content">
+                  <h2 class="project_title">Project Title</h2>
+                  <div class="project_text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptate.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptate.</p>
+                  </div>
+                  <div class="project_buttons">
+                    <button class="project_button">Live Site</button>
+                    <button class="project_button">GitHub</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+     
+    
+      
+  
     </section>
 
+    <section class="blog scroll-margin-top" id="blog">
+      <div class="blog-content container-content">
+        <h2 class="blog-title">codewords</h2>
+        <p>a podcast by me</p>
+        <p>Welcome to codewords. If you’re a new developer, this is the podcast for you. <br>Start exploring unique coding stories today.</p>
+        <iframe src="https://open.spotify.com/embed/show/1wX67b5fhcWK4TSB6ZGFO9?theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+    </section>
   
+
  
+  
+    <section class="contact scroll-margin-top" id="contact">
+      <h3>contact</h3>
+      <p>I solemnly swear to respond to your message</p>
+      <form class="form" action="https://formsubmit.co/your@email.com" method="POST">
+        <input class="input" type="hidden" name="_autoresponse" value="your custom message">
+        <input class="input" type="hidden" name="_subject" value="New submission!">
+        <input class="input" type="text" name="_honey" style="display:none">
+        <input class="input" type="hidden" name="_template" value="box">
+        <input class="input" type="text" name="name" required placeholder="Name">
+        <input class="input" type="email" name="email" required placeholder="Email address">
+        <textarea class="textarea input" type="text" name="message" required cols="10" rows="10" placeholder="Hi Rob, I'm keen to talk to you about..."></textarea>
+        <button class="submitBtn" type="submit">Send</button>
+   </form>
+
+   </section>
+
+    
 
     <footer class="footer">
-        <div class="footer__container">
-            <p>this website was built by rjrobbie.</p>
-            <p><i class="far fa-copyright"></i> 2021</p>
-        </div>        
+      <i class="fas fa-rocket back-to-top"></i>
+      <p>Beam me up Scotty!</p>
+      <p>created by rjrobbie in 2021</p>
     </footer>
-    
-    <script src="script.js"></script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="/script.js"></script>
 </body>
 </html>
