@@ -357,7 +357,7 @@ html {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 1rem;
+  padding: .25rem;
   color: black;
   max-width: 1300px;
 }
@@ -388,7 +388,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 90%;
 }
 
 .input {
