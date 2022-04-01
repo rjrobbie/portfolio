@@ -217,6 +217,7 @@ html {
   background-color: black;
   color: white;
   width: 100%;
+  height: auto;
 }
 
 .main-content {
@@ -335,12 +336,16 @@ html {
   margin-bottom: 5rem;
 }
 
+.project_button  {
+  text-decoration: none;
+  color: black;
+}
+
 .project_button:hover {
   background-color: black;
   color: whitesmoke;
 }
 
-/*  */
 
 .blog {
   font-size: 1.15rem;
